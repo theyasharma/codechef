@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+    int t,x;
+    cin>>t;
+    while(t--){
+      cin>>x;
+      string result;
+      result = (x<=15) ? "yes" : "no";
+      cout<<result<<endl;
+    }
+    
+}
