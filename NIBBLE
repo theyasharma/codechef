@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+    int t,n;
+    cin>>t;
+    while(t--){
+    cin>>n;
+    string result;
+    result =(n%4==0)?"good":"not good";
+    cout<<result<<endl;
+    
+    
+      
+    }
+    
+}
