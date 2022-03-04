@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+   int t;
+   cin>>t;
+   while(t--){
+     int x,y,choco=0;
+     cin>>x>>y;
+     choco=x/y;
+     cout<<choco<<endl;
+     
+    
+   }
+}
