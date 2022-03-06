@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+    int t;
+    cin>>t;
+    while(t--){
+      int n,x,p,total;
+      string result;
+      cin>>n>>x>>p;
+      total=(x*3)-(n-x);
+      result=(total>=p)?("pass"):("fail");
+      cout<<result<<endl;
+      
+    }
+}
