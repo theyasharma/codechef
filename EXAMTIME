@@ -1,0 +1,38 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+    
+    int t;
+    cin>>t;
+    while(t--){
+      int ddsa,dtoc,ddm,sdsa,stoc,sdm,dtotal,stotal;
+      string str1 ="DRAGON";
+      string str2 ="SLOTH";
+      string str3 ="TIE";
+      cin>>ddsa>>dtoc>>ddm;
+      cin>>sdsa>>stoc>>sdm;
+      dtotal=ddsa+dtoc+ddm;
+      stotal=sdsa+stoc+sdm;
+      if(dtotal>stotal){
+        cout<<str1<<endl;
+      }else if(stotal>dtotal){
+        cout<<str2<<endl;
+      }else if(dtotal==stotal){
+        if(ddsa>sdsa){
+          cout<<str1<<endl;
+        }else if(sdsa>ddsa){
+          cout<<str2<<endl;
+        }else if(ddsa==sdsa){
+          if(dtoc>stoc){
+        cout<<str1<<endl;
+      }else if(stoc>dtoc){
+        cout<<str2<<endl;
+      }else if(stoc==dtoc){
+        cout<<str3<<endl;
+      }
+        }
+      }
+    }
+}
